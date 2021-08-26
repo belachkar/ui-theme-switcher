@@ -1,0 +1,24 @@
+{
+  "name": "ui-theme-switcher",
+  "description": "Creating CSS theme switcher like Alligator.io themes: Light, dark & solar",
+  "version": "0.1.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/belachkar/ui-theme-switcher.git"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "themes"
+  ],
+  "author": "A.Belachkar <silverdaymon@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/belachkar/ui-theme-switcher/issues"
+  },
+  "homepage": "https://github.com/belachkar/ui-theme-switcher#readme"
+}
