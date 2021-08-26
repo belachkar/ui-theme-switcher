@@ -44,3 +44,31 @@ header {
   justify-content: space-evenly;
   height         : 100%;
 }
+
+.nav-item {
+  position: relative;
+}
+
+.dropdown {
+  position        : absolute;
+  width           : 500px;
+  display         : flex;
+  align-items     : center;
+  justify-content : space-around;
+  opacity         : 0;
+  z-index         : 2;
+  background-color: blue;
+  border-top      : 2px solid white;
+  border-radius   : 0 0 8px 8px;
+  height          : 3rem;
+  margin-top      : 2rem;
+  padding         : 0.5rem;
+  box-shadow      : rgba(2, 8, 20, 0.1) 0 0.175em 0.5em;
+  transform       : translateX(-40%);
+  transition      : opacity .15s ease-out;
+}
+
+.has-dropdown:focus-within .dropdown {
+  opacity       : 1;
+  pointer-events: auto;
+}
