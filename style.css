@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100vh;
+}
+
+body {
+  padding    : 0;
+  margin     : 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color          : currentColor;
+}
+
+ul {
+  list-style-type: none;
+  padding        : 0;
+  margin         : 0;
+}
+
+header {
+  margin-bottom   : 1em;
+  padding         : 1em 1em 3.5em;
+  text-align      : center;
+  background-color: red;
+  clip-path       : polygon(0 0, 50% 0, 100% 0, 100% 65%, 50% 100%, 0 65%);
+}
+
+.navbar {
+  height          : 70px;
+  width           : 100%;
+  background-color: black;
+  color           : white;
+}
+
+.navbar-nav {
+  display        : flex;
+  align-items    : center;
+  justify-content: space-evenly;
+  height         : 100%;
+}
