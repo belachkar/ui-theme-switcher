@@ -1,7 +1,7 @@
 {
   "name": "ui-theme-switcher",
   "description": "Creating CSS theme switcher like Alligator.io themes: Light, dark & solar",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "main": "app.js",
   "scripts": {
     "start": "live-server"

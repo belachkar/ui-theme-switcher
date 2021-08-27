@@ -34,6 +34,12 @@ header {
   clip-path    : polygon(0 0, 50% 0, 100% 0, 100% 65%, 50% 100%, 0 65%);
 }
 
+main {
+  min-height: 550px;
+  padding   : 2rem;
+}
+
+/* Navbar */
 .navbar {
   height          : 70px;
   width           : 100%;
@@ -52,6 +58,7 @@ header {
   position: relative;
 }
 
+/* Dropdown */
 .dropdown {
   position        : absolute;
   display         : flex;
@@ -135,4 +142,33 @@ header {
   --grey4: #3ea565;
   --grey5: #005368;
   --grey6: #003d4c;
+}
+
+#dark::before {
+  background: var(--grey5);
+}
+
+#light::before {
+  background: var(--grey0);
+}
+
+#solar::before {
+  background: var(--bg-solar);
+}
+
+/* Logo animation */
+@keyframes color-rotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.logo:hover {
+  animation                : color-rotate 1s;
+  animation-iteration-count: infinite;
+  animation-direction      : alternate;
 }
