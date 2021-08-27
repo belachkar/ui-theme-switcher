@@ -23,8 +23,7 @@ darkBtn.onclick = () => {
 
 solarBtn.onclick = () => {
   const isSolarNow = body.classList.toggle('solar');
-  const solarBtnText = isSolarNow ? 'Normalize' : 'Solarize';
 
-  solarBtn.innerText = solarBtnText;
+  solarBtn.innerText = isSolarNow ? 'Normalize' : 'Solarize';
   localStorage.setItem('isSolar', JSON.stringify(isSolarNow));
 };
